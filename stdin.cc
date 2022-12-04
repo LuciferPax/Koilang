@@ -1,17 +1,9 @@
-#include <string>
-#include <vector>
-#include <bin/koiconfig.h>
-
-#ifndef _KOI_STDIN_H_
-#define _KOI_STDIN_H_
-
-namespace lib _KOIXX_VISIBILITY(deafult) {
-    _KOIXX_BEGIN_NAMESPACE_VERSION
-    _KOI_STDIN_H_ extern 
-
-    _KOIXX_END_NAMESPACE_VERSION  
-}
-
-#endif
-
-// a macro that exports into anoth macro 
+// acess specifier      link   IMPORTER         FILE ACS COMMANDS
+__PURE_APPDOMAIN_GLOBAL extern _CRTDATA2_IMPORT istream cin;
+__PURE_APPDOMAIN_GLOBAL extern _CRTDATA2_IMPORT ostream cout;
+__PURE_APPDOMAIN_GLOBAL extern _CRTDATA2_IMPORT ostream cerr;
+__PURE_APPDOMAIN_GLOBAL extern _CRTDATA2_IMPORT ostream clog;
+__PURE_APPDOMAIN_GLOBAL extern _CRTDATA2_IMPORT istream* _Ptr_cin;
+__PURE_APPDOMAIN_GLOBAL extern _CRTDATA2_IMPORT ostream* _Ptr_cout;
+__PURE_APPDOMAIN_GLOBAL extern _CRTDATA2_IMPORT ostream* _Ptr_cerr;
+__PURE_APPDOMAIN_GLOBAL extern _CRTDATA2_IMPORT ostream* _Ptr_clog;
